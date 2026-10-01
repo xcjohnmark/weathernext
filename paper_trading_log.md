@@ -4,7 +4,7 @@
 > 💵 **Available Cash Balance:** **$115.12**  
 > 📈 **Total Account Equity:** **$115.12** ($115.12 Cash + $0.00 in Active Trades)  
 > 📊 **Cumulative Realized PnL:** **+15.12**  
-> 🕒 **Last Updated:** 2026-10-01 20:34:26  
+> 🕒 **Last Updated:** 2026-10-01 20:24:18  
 > **Strategy Rules:** Trade YES if Model > 75%, Trade NO if Model < 25%, Entry Ask Price < 80¢, Fixed $10/trade  
 
 ---
@@ -86,6 +86,49 @@
 | **Seattle** | `CLISEA` | 1% | 2¢ / 99¢ | 1.6% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | NO price >= 80¢ (Low ROI/Fee Risk) |
 
 ### 📊 Portfolio Status (2026-10-01)
+* **Initial Bankroll:** $100.00
+* **Capital Invested Today:** $0.00 (0 positions @ $10.00)
+* **Available Cash Remaining:** **$115.12**
+* **Total Active Open Positions:** 0
+* **Potential Realized Payout:** $0.00 (Potential Net Profit: +$0.00)
+* **Cumulative Realized PnL to Date:** **$+15.12**
+* **Total Account Equity:** **$115.12** ($115.12 Cash + $0.00 Open Positions)
+
+---
+
+## Paper Trading Session: 2026-09-30
+*Logged at: 2026-10-01 20:24:18 (Live Production Kalshi Prices & WeatherNext 63-Member Ensemble)*
+
+- **Trades Placed Today:** 0
+- **Capital Deployed Today:** $0.00
+- **Potential Return from Today's Trades:** $0.00
+
+| City | Station | Kalshi Chance | YES / NO Ask | WeatherNext Prob | Position | Entry Price | Contracts | Invested | Realized Return If Won | Actual Resolution | Realized Gain | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **Chicago** | `CLIORD` | -- | -- / -- | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | No NO Ask liquidity |
+| **Denver** | `CLIDEN` | -- | -- / -- | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | No NO Ask liquidity |
+| **Los Angeles** | `CLILAX` | -- | -- / -- | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | No NO Ask liquidity |
+| **Las Vegas** | `CLILAS` | -- | -- / -- | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | No NO Ask liquidity |
+| **Miami** | `CLIMIA` | -- | -- / -- | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | No NO Ask liquidity |
+| **New Orleans** | `CLIMSY` | -- | -- / -- | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | No NO Ask liquidity |
+| **New York City** | `CLINYC` | -- | -- / -- | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | No NO Ask liquidity |
+| **Philadelphia** | `CLIPHL` | -- | -- / -- | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | No NO Ask liquidity |
+| **San Francisco** | `CLISFO` | -- | -- / -- | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | No NO Ask liquidity |
+| **Trenton** | `CLITTN` | -- | -- / -- | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | No NO Ask liquidity |
+| **Atlanta** | `CLIATL` | -- | -- / -- | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | No NO Ask liquidity |
+| **Austin** | `CLIAUS` | -- | -- / -- | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | No NO Ask liquidity |
+| **Boston** | `CLIBOS` | -- | -- / -- | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | No NO Ask liquidity |
+| **Dallas** | `CLIDFW` | -- | -- / -- | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | No NO Ask liquidity |
+| **Washington DC** | `CLIDCA` | -- | -- / -- | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | No NO Ask liquidity |
+| **Newark** | `CLIEWR` | -- | -- / -- | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | No NO Ask liquidity |
+| **Houston** | `CLIHOU` | -- | -- / -- | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | No NO Ask liquidity |
+| **Minneapolis** | `CLIMSP` | -- | -- / -- | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | No NO Ask liquidity |
+| **Oklahoma City** | `CLIOKC` | -- | -- / -- | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | No NO Ask liquidity |
+| **Phoenix** | `CLIPHX` | -- | -- / -- | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | No NO Ask liquidity |
+| **San Antonio** | `CLISAT` | -- | -- / -- | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | No NO Ask liquidity |
+| **Seattle** | `CLISEA` | -- | -- / -- | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | No NO Ask liquidity |
+
+### 📊 Portfolio Status (2026-09-30)
 * **Initial Bankroll:** $100.00
 * **Capital Invested Today:** $0.00 (0 positions @ $10.00)
 * **Available Cash Remaining:** **$115.12**
