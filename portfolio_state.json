@@ -1,0 +1,50 @@
+{
+  "starting_balance": 100.0,
+  "cash_balance": 115.11999999999999,
+  "cumulative_realized_pnl": 15.120000000000001,
+  "pending_trades": [],
+  "settled_trades": [
+    {
+      "date": "2026-09-30",
+      "city": "Denver",
+      "station": "CLIDEN",
+      "ticker": "KXRAIN-26SEP30-DEN",
+      "position": "YES",
+      "entry_price": 0.66,
+      "contracts": 15.15,
+      "invested": 10.0,
+      "potential_realized": 14.91,
+      "potential_net_profit": 4.91,
+      "actual_resolution": "YES",
+      "realized_gain": "+$4.91"
+    },
+    {
+      "date": "2026-09-30",
+      "city": "Dallas",
+      "station": "CLIDFW",
+      "ticker": "KXRAIN-26SEP30-DAL",
+      "position": "YES",
+      "entry_price": 0.78,
+      "contracts": 12.82,
+      "invested": 10.0,
+      "potential_realized": 12.66,
+      "potential_net_profit": 2.66,
+      "actual_resolution": "YES",
+      "realized_gain": "+$2.66"
+    },
+    {
+      "date": "2026-09-30",
+      "city": "San Antonio",
+      "station": "CLISAT",
+      "ticker": "KXRAIN-26SEP30-SATX",
+      "position": "YES",
+      "entry_price": 0.56,
+      "contracts": 17.86,
+      "invested": 10.0,
+      "potential_realized": 17.55,
+      "potential_net_profit": 7.55,
+      "actual_resolution": "YES",
+      "realized_gain": "+$7.55"
+    }
+  ]
+}

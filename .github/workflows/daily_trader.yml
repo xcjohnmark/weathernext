@@ -1,0 +1,35 @@
+name: Daily Kalshi Weather Paper Trader
+
+on:
+  schedule:
+    # Runs daily at 10:00 UTC (11:00 AM your local time UTC+1 / 6:00 AM EDT)
+    - cron: '0 10 * * *'
+  workflow_dispatch: # Allows manual 1-click trigger from GitHub Actions tab
+
+permissions:
+  contents: write # Grants GitHub Actions permission to commit and push updated logs
+
+jobs:
+  trade-and-log:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Paper Trader (Settle Past Day & Execute Today's Model)
+        run: python paper_trader.py
+
+      - name: Commit and Push Updated Journal & State
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add paper_trading_log.md portfolio_state.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update paper trading journal [skip ci]" && git push)
