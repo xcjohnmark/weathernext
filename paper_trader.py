@@ -2,6 +2,7 @@ import json
 import math
 import os
 import sys
+import time
 import urllib.request
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
@@ -163,13 +164,27 @@ def fetch_live_kalshi_markets(target_date_str):
     dt = datetime.strptime(target_date_str, "%Y-%m-%d")
     date_code = dt.strftime("%y%b%d").upper()
 
-    url = "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXRAIN&status=open&limit=200"
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    try:
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            data = json.loads(resp.read().decode())
-    except Exception as e:
-        print(f"Error fetching live Kalshi prices: {e}")
+    urls = [
+        "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXRAIN&status=open&limit=200",
+        "https://api.kalshi.com/trade-api/v2/markets?series_ticker=KXRAIN&status=open&limit=200",
+    ]
+
+    data = None
+    for url in urls:
+        for attempt in range(3):
+            try:
+                req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
+                with urllib.request.urlopen(req, timeout=15) as resp:
+                    data = json.loads(resp.read().decode())
+                if data and "markets" in data:
+                    break
+            except Exception as e:
+                time.sleep(2)
+        if data and "markets" in data:
+            break
+
+    if not data:
+        print("Error: Could not reach Kalshi API after multiple retries.")
         return {}
 
     markets = data.get("markets", [])
@@ -218,7 +233,7 @@ def calculate_kalshi_trade(price):
 
 
 def main():
-    target_date = sys.argv[1] if len(sys.argv) > 1 else "2026-09-30"
+    target_date = sys.argv[1] if len(sys.argv) > 1 else datetime.now().strftime("%Y-%m-%d")
     state = load_state()
 
     print(f"=== Running Paper Trader for {target_date} ===")

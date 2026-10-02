@@ -2,8 +2,8 @@ name: Daily Kalshi Weather Paper Trader
 
 on:
   schedule:
-    # Runs daily at 10:00 UTC (11:00 AM your local time UTC+1 / 6:00 AM EDT)
-    - cron: '0 10 * * *'
+    # Runs daily at 10:15 UTC (11:15 AM your local time UTC+1 / 6:15 AM EDT)
+    - cron: '15 10 * * *'
   workflow_dispatch: # Allows manual 1-click trigger from GitHub Actions tab
 
 permissions:
