@@ -1,43 +1,67 @@
 {
   "starting_balance": 100.0,
-  "cash_balance": 85.11999999999999,
-  "cumulative_realized_pnl": 15.120000000000001,
+  "cash_balance": 35.11999999999999,
+  "cumulative_realized_pnl": -14.879999999999999,
   "pending_trades": [
     {
-      "date": "2026-10-03",
+      "date": "2026-10-04",
       "city": "Miami",
       "station": "CLIMIA",
-      "ticker": "KXRAIN-26OCT03-MIA",
+      "ticker": "KXRAIN-26OCT04-MIA",
       "position": "YES",
-      "entry_price": 0.52,
-      "contracts": 19.23,
+      "entry_price": 0.18,
+      "contracts": 55.56,
       "invested": 10.0,
-      "potential_realized": 18.89,
-      "potential_net_profit": 8.89
+      "potential_realized": 54.98,
+      "potential_net_profit": 44.98
     },
     {
-      "date": "2026-10-03",
-      "city": "Philadelphia",
-      "station": "CLIPHL",
-      "ticker": "KXRAIN-26OCT03-PHIL",
+      "date": "2026-10-04",
+      "city": "New York City",
+      "station": "CLINYC",
+      "ticker": "KXRAIN-26OCT04-NYC",
       "position": "YES",
-      "entry_price": 0.03,
-      "contracts": 333.33,
+      "entry_price": 0.79,
+      "contracts": 12.66,
       "invested": 10.0,
-      "potential_realized": 332.65,
-      "potential_net_profit": 322.65
+      "potential_realized": 12.51,
+      "potential_net_profit": 2.51
     },
     {
-      "date": "2026-10-03",
+      "date": "2026-10-04",
+      "city": "Austin",
+      "station": "CLIAUS",
+      "ticker": "KXRAIN-26OCT04-AUS",
+      "position": "YES",
+      "entry_price": 0.56,
+      "contracts": 17.86,
+      "invested": 10.0,
+      "potential_realized": 17.55,
+      "potential_net_profit": 7.55
+    },
+    {
+      "date": "2026-10-04",
+      "city": "Houston",
+      "station": "CLIHOU",
+      "ticker": "KXRAIN-26OCT04-HOU",
+      "position": "YES",
+      "entry_price": 0.6,
+      "contracts": 16.67,
+      "invested": 10.0,
+      "potential_realized": 16.38,
+      "potential_net_profit": 6.38
+    },
+    {
+      "date": "2026-10-04",
       "city": "San Antonio",
       "station": "CLISAT",
-      "ticker": "KXRAIN-26OCT03-SATX",
+      "ticker": "KXRAIN-26OCT04-SATX",
       "position": "YES",
-      "entry_price": 0.5,
-      "contracts": 20.0,
+      "entry_price": 0.16,
+      "contracts": 62.5,
       "invested": 10.0,
-      "potential_realized": 19.65,
-      "potential_net_profit": 9.65
+      "potential_realized": 61.91,
+      "potential_net_profit": 51.91
     }
   ],
   "settled_trades": [
@@ -82,6 +106,48 @@
       "potential_net_profit": 7.55,
       "actual_resolution": "YES",
       "realized_gain": "+$7.55"
+    },
+    {
+      "date": "2026-10-03",
+      "city": "Miami",
+      "station": "CLIMIA",
+      "ticker": "KXRAIN-26OCT03-MIA",
+      "position": "YES",
+      "entry_price": 0.52,
+      "contracts": 19.23,
+      "invested": 10.0,
+      "potential_realized": 18.89,
+      "potential_net_profit": 8.89,
+      "actual_resolution": "NO",
+      "realized_gain": "-$10.00"
+    },
+    {
+      "date": "2026-10-03",
+      "city": "Philadelphia",
+      "station": "CLIPHL",
+      "ticker": "KXRAIN-26OCT03-PHIL",
+      "position": "YES",
+      "entry_price": 0.03,
+      "contracts": 333.33,
+      "invested": 10.0,
+      "potential_realized": 332.65,
+      "potential_net_profit": 322.65,
+      "actual_resolution": "NO",
+      "realized_gain": "-$10.00"
+    },
+    {
+      "date": "2026-10-03",
+      "city": "San Antonio",
+      "station": "CLISAT",
+      "ticker": "KXRAIN-26OCT03-SATX",
+      "position": "YES",
+      "entry_price": 0.5,
+      "contracts": 20.0,
+      "invested": 10.0,
+      "potential_realized": 19.65,
+      "potential_net_profit": 9.65,
+      "actual_resolution": "NO",
+      "realized_gain": "-$10.00"
     }
   ]
 }
