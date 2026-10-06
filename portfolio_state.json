@@ -1,45 +1,8 @@
 {
   "starting_balance": 100.0,
   "cash_balance": 51.55999999999999,
-  "cumulative_realized_pnl": -18.439999999999998,
-  "pending_trades": [
-    {
-      "date": "2026-10-05",
-      "city": "Miami",
-      "station": "CLIMIA",
-      "ticker": "KXRAIN-26OCT05-MIA",
-      "position": "YES",
-      "entry_price": 0.07,
-      "contracts": 142.86,
-      "invested": 10.0,
-      "potential_realized": 142.2,
-      "potential_net_profit": 132.2
-    },
-    {
-      "date": "2026-10-05",
-      "city": "New Orleans",
-      "station": "CLIMSY",
-      "ticker": "KXRAIN-26OCT05-NOLA",
-      "position": "YES",
-      "entry_price": 0.59,
-      "contracts": 16.95,
-      "invested": 10.0,
-      "potential_realized": 16.66,
-      "potential_net_profit": 6.66
-    },
-    {
-      "date": "2026-10-05",
-      "city": "Atlanta",
-      "station": "CLIATL",
-      "ticker": "KXRAIN-26OCT05-ATL",
-      "position": "YES",
-      "entry_price": 0.03,
-      "contracts": 333.33,
-      "invested": 10.0,
-      "potential_realized": 332.65,
-      "potential_net_profit": 322.65
-    }
-  ],
+  "cumulative_realized_pnl": -48.44,
+  "pending_trades": [],
   "settled_trades": [
     {
       "date": "2026-09-30",
@@ -192,6 +155,48 @@
       "invested": 10.0,
       "potential_realized": 61.91,
       "potential_net_profit": 51.91,
+      "actual_resolution": "NO",
+      "realized_gain": "-$10.00"
+    },
+    {
+      "date": "2026-10-05",
+      "city": "Miami",
+      "station": "CLIMIA",
+      "ticker": "KXRAIN-26OCT05-MIA",
+      "position": "YES",
+      "entry_price": 0.07,
+      "contracts": 142.86,
+      "invested": 10.0,
+      "potential_realized": 142.2,
+      "potential_net_profit": 132.2,
+      "actual_resolution": "NO",
+      "realized_gain": "-$10.00"
+    },
+    {
+      "date": "2026-10-05",
+      "city": "New Orleans",
+      "station": "CLIMSY",
+      "ticker": "KXRAIN-26OCT05-NOLA",
+      "position": "YES",
+      "entry_price": 0.59,
+      "contracts": 16.95,
+      "invested": 10.0,
+      "potential_realized": 16.66,
+      "potential_net_profit": 6.66,
+      "actual_resolution": "NO",
+      "realized_gain": "-$10.00"
+    },
+    {
+      "date": "2026-10-05",
+      "city": "Atlanta",
+      "station": "CLIATL",
+      "ticker": "KXRAIN-26OCT05-ATL",
+      "position": "YES",
+      "entry_price": 0.03,
+      "contracts": 333.33,
+      "invested": 10.0,
+      "potential_realized": 332.65,
+      "potential_net_profit": 322.65,
       "actual_resolution": "NO",
       "realized_gain": "-$10.00"
     }
