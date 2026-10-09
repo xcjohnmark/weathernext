@@ -1,19 +1,19 @@
 {
   "starting_balance": 100.0,
-  "cash_balance": 41.55999999999999,
-  "cumulative_realized_pnl": -48.44,
+  "cash_balance": 31.559999999999988,
+  "cumulative_realized_pnl": -58.44,
   "pending_trades": [
     {
-      "date": "2026-10-08",
+      "date": "2026-10-09",
       "city": "Miami",
       "station": "CLIMIA",
-      "ticker": "KXRAIN-26OCT08-MIA",
+      "ticker": "KXRAIN-26OCT09-MIA",
       "position": "YES",
-      "entry_price": 0.58,
-      "contracts": 17.24,
+      "entry_price": 0.32,
+      "contracts": 31.25,
       "invested": 10.0,
-      "potential_realized": 16.94,
-      "potential_net_profit": 6.94
+      "potential_realized": 30.77,
+      "potential_net_profit": 20.77
     }
   ],
   "settled_trades": [
@@ -210,6 +210,20 @@
       "invested": 10.0,
       "potential_realized": 332.65,
       "potential_net_profit": 322.65,
+      "actual_resolution": "NO",
+      "realized_gain": "-$10.00"
+    },
+    {
+      "date": "2026-10-08",
+      "city": "Miami",
+      "station": "CLIMIA",
+      "ticker": "KXRAIN-26OCT08-MIA",
+      "position": "YES",
+      "entry_price": 0.58,
+      "contracts": 17.24,
+      "invested": 10.0,
+      "potential_realized": 16.94,
+      "potential_net_profit": 6.94,
       "actual_resolution": "NO",
       "realized_gain": "-$10.00"
     }
