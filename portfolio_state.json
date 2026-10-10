@@ -1,19 +1,43 @@
 {
   "starting_balance": 100.0,
-  "cash_balance": 31.559999999999988,
-  "cumulative_realized_pnl": -58.44,
+  "cash_balance": 1.559999999999988,
+  "cumulative_realized_pnl": -68.44,
   "pending_trades": [
     {
-      "date": "2026-10-09",
+      "date": "2026-10-10",
       "city": "Miami",
       "station": "CLIMIA",
-      "ticker": "KXRAIN-26OCT09-MIA",
+      "ticker": "KXRAIN-26OCT10-MIA",
       "position": "YES",
-      "entry_price": 0.32,
-      "contracts": 31.25,
+      "entry_price": 0.27,
+      "contracts": 37.04,
       "invested": 10.0,
-      "potential_realized": 30.77,
-      "potential_net_profit": 20.77
+      "potential_realized": 36.52,
+      "potential_net_profit": 26.52
+    },
+    {
+      "date": "2026-10-10",
+      "city": "Washington DC",
+      "station": "CLIDCA",
+      "ticker": "KXRAIN-26OCT10-DC",
+      "position": "YES",
+      "entry_price": 0.27,
+      "contracts": 37.04,
+      "invested": 10.0,
+      "potential_realized": 36.52,
+      "potential_net_profit": 26.52
+    },
+    {
+      "date": "2026-10-10",
+      "city": "Seattle",
+      "station": "CLISEA",
+      "ticker": "KXRAIN-26OCT10-SEA",
+      "position": "YES",
+      "entry_price": 0.13,
+      "contracts": 76.92,
+      "invested": 10.0,
+      "potential_realized": 76.31,
+      "potential_net_profit": 66.31
     }
   ],
   "settled_trades": [
@@ -224,6 +248,20 @@
       "invested": 10.0,
       "potential_realized": 16.94,
       "potential_net_profit": 6.94,
+      "actual_resolution": "NO",
+      "realized_gain": "-$10.00"
+    },
+    {
+      "date": "2026-10-09",
+      "city": "Miami",
+      "station": "CLIMIA",
+      "ticker": "KXRAIN-26OCT09-MIA",
+      "position": "YES",
+      "entry_price": 0.32,
+      "contracts": 31.25,
+      "invested": 10.0,
+      "potential_realized": 30.77,
+      "potential_net_profit": 20.77,
       "actual_resolution": "NO",
       "realized_gain": "-$10.00"
     }
