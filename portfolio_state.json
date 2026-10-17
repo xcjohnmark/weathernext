@@ -1,43 +1,43 @@
 {
   "starting_balance": 100.0,
-  "cash_balance": 167.91000000000003,
-  "cumulative_realized_pnl": 97.91,
+  "cash_balance": 172.54000000000002,
+  "cumulative_realized_pnl": 102.54,
   "pending_trades": [
     {
-      "date": "2026-10-16",
-      "city": "Chicago",
-      "station": "CLIORD",
-      "ticker": "KXRAIN-26OCT16-CHI",
+      "date": "2026-10-17",
+      "city": "Boston",
+      "station": "CLIBOS",
+      "ticker": "KXRAIN-26OCT17-BOS",
       "position": "YES",
-      "entry_price": 0.64,
-      "contracts": 15.62,
+      "entry_price": 0.01,
+      "contracts": 1000.0,
       "invested": 10.0,
-      "potential_realized": 15.37,
-      "potential_net_profit": 5.37
+      "potential_realized": 999.3,
+      "potential_net_profit": 989.3
     },
     {
-      "date": "2026-10-16",
-      "city": "Miami",
-      "station": "CLIMIA",
-      "ticker": "KXRAIN-26OCT16-MIA",
+      "date": "2026-10-17",
+      "city": "Newark",
+      "station": "CLIEWR",
+      "ticker": "KXRAIN-26OCT17-EWR",
       "position": "YES",
-      "entry_price": 0.51,
-      "contracts": 19.61,
+      "entry_price": 0.01,
+      "contracts": 1000.0,
       "invested": 10.0,
-      "potential_realized": 19.26,
-      "potential_net_profit": 9.26
+      "potential_realized": 999.3,
+      "potential_net_profit": 989.3
     },
     {
-      "date": "2026-10-16",
-      "city": "Dallas",
-      "station": "CLIDFW",
-      "ticker": "KXRAIN-26OCT16-DAL",
+      "date": "2026-10-17",
+      "city": "Phoenix",
+      "station": "CLIPHX",
+      "ticker": "KXRAIN-26OCT17-PHX",
       "position": "YES",
-      "entry_price": 0.04,
-      "contracts": 250.0,
+      "entry_price": 0.37,
+      "contracts": 27.03,
       "invested": 10.0,
-      "potential_realized": 249.32,
-      "potential_net_profit": 239.32
+      "potential_realized": 26.58,
+      "potential_net_profit": 16.58
     }
   ],
   "settled_trades": [
@@ -544,6 +544,48 @@
       "potential_net_profit": 4.07,
       "actual_resolution": "YES",
       "realized_gain": "+$4.07"
+    },
+    {
+      "date": "2026-10-16",
+      "city": "Chicago",
+      "station": "CLIORD",
+      "ticker": "KXRAIN-26OCT16-CHI",
+      "position": "YES",
+      "entry_price": 0.64,
+      "contracts": 15.62,
+      "invested": 10.0,
+      "potential_realized": 15.37,
+      "potential_net_profit": 5.37,
+      "actual_resolution": "YES",
+      "realized_gain": "+$5.37"
+    },
+    {
+      "date": "2026-10-16",
+      "city": "Miami",
+      "station": "CLIMIA",
+      "ticker": "KXRAIN-26OCT16-MIA",
+      "position": "YES",
+      "entry_price": 0.51,
+      "contracts": 19.61,
+      "invested": 10.0,
+      "potential_realized": 19.26,
+      "potential_net_profit": 9.26,
+      "actual_resolution": "YES",
+      "realized_gain": "+$9.26"
+    },
+    {
+      "date": "2026-10-16",
+      "city": "Dallas",
+      "station": "CLIDFW",
+      "ticker": "KXRAIN-26OCT16-DAL",
+      "position": "YES",
+      "entry_price": 0.04,
+      "contracts": 250.0,
+      "invested": 10.0,
+      "potential_realized": 249.32,
+      "potential_net_profit": 239.32,
+      "actual_resolution": "NO",
+      "realized_gain": "-$10.00"
     }
   ]
 }
