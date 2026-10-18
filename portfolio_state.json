@@ -1,32 +1,8 @@
 {
   "starting_balance": 100.0,
-  "cash_balance": 172.54000000000002,
-  "cumulative_realized_pnl": 102.54,
+  "cash_balance": 162.54000000000002,
+  "cumulative_realized_pnl": 82.54,
   "pending_trades": [
-    {
-      "date": "2026-10-17",
-      "city": "Boston",
-      "station": "CLIBOS",
-      "ticker": "KXRAIN-26OCT17-BOS",
-      "position": "YES",
-      "entry_price": 0.01,
-      "contracts": 1000.0,
-      "invested": 10.0,
-      "potential_realized": 999.3,
-      "potential_net_profit": 989.3
-    },
-    {
-      "date": "2026-10-17",
-      "city": "Newark",
-      "station": "CLIEWR",
-      "ticker": "KXRAIN-26OCT17-EWR",
-      "position": "YES",
-      "entry_price": 0.01,
-      "contracts": 1000.0,
-      "invested": 10.0,
-      "potential_realized": 999.3,
-      "potential_net_profit": 989.3
-    },
     {
       "date": "2026-10-17",
       "city": "Phoenix",
@@ -38,6 +14,18 @@
       "invested": 10.0,
       "potential_realized": 26.58,
       "potential_net_profit": 16.58
+    },
+    {
+      "date": "2026-10-18",
+      "city": "Phoenix",
+      "station": "CLIPHX",
+      "ticker": "KXRAIN-26OCT18-PHX",
+      "position": "YES",
+      "entry_price": 0.29,
+      "contracts": 34.48,
+      "invested": 10.0,
+      "potential_realized": 33.98,
+      "potential_net_profit": 23.98
     }
   ],
   "settled_trades": [
@@ -584,6 +572,34 @@
       "invested": 10.0,
       "potential_realized": 249.32,
       "potential_net_profit": 239.32,
+      "actual_resolution": "NO",
+      "realized_gain": "-$10.00"
+    },
+    {
+      "date": "2026-10-17",
+      "city": "Boston",
+      "station": "CLIBOS",
+      "ticker": "KXRAIN-26OCT17-BOS",
+      "position": "YES",
+      "entry_price": 0.01,
+      "contracts": 1000.0,
+      "invested": 10.0,
+      "potential_realized": 999.3,
+      "potential_net_profit": 989.3,
+      "actual_resolution": "NO",
+      "realized_gain": "-$10.00"
+    },
+    {
+      "date": "2026-10-17",
+      "city": "Newark",
+      "station": "CLIEWR",
+      "ticker": "KXRAIN-26OCT17-EWR",
+      "position": "YES",
+      "entry_price": 0.01,
+      "contracts": 1000.0,
+      "invested": 10.0,
+      "potential_realized": 999.3,
+      "potential_net_profit": 989.3,
       "actual_resolution": "NO",
       "realized_gain": "-$10.00"
     }
