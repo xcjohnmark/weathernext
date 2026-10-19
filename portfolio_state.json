@@ -1,25 +1,13 @@
 {
   "starting_balance": 100.0,
-  "cash_balance": 162.54000000000002,
-  "cumulative_realized_pnl": 82.54,
+  "cash_balance": 179.12,
+  "cumulative_realized_pnl": 89.12,
   "pending_trades": [
     {
-      "date": "2026-10-17",
-      "city": "Phoenix",
-      "station": "CLIPHX",
-      "ticker": "KXRAIN-26OCT17-PHX",
-      "position": "YES",
-      "entry_price": 0.37,
-      "contracts": 27.03,
-      "invested": 10.0,
-      "potential_realized": 26.58,
-      "potential_net_profit": 16.58
-    },
-    {
-      "date": "2026-10-18",
-      "city": "Phoenix",
-      "station": "CLIPHX",
-      "ticker": "KXRAIN-26OCT18-PHX",
+      "date": "2026-10-19",
+      "city": "Miami",
+      "station": "CLIMIA",
+      "ticker": "KXRAIN-26OCT19-MIA",
       "position": "YES",
       "entry_price": 0.29,
       "contracts": 34.48,
@@ -600,6 +588,34 @@
       "invested": 10.0,
       "potential_realized": 999.3,
       "potential_net_profit": 989.3,
+      "actual_resolution": "NO",
+      "realized_gain": "-$10.00"
+    },
+    {
+      "date": "2026-10-17",
+      "city": "Phoenix",
+      "station": "CLIPHX",
+      "ticker": "KXRAIN-26OCT17-PHX",
+      "position": "YES",
+      "entry_price": 0.37,
+      "contracts": 27.03,
+      "invested": 10.0,
+      "potential_realized": 26.58,
+      "potential_net_profit": 16.58,
+      "actual_resolution": "YES",
+      "realized_gain": "+$16.58"
+    },
+    {
+      "date": "2026-10-18",
+      "city": "Phoenix",
+      "station": "CLIPHX",
+      "ticker": "KXRAIN-26OCT18-PHX",
+      "position": "YES",
+      "entry_price": 0.29,
+      "contracts": 34.48,
+      "invested": 10.0,
+      "potential_realized": 33.98,
+      "potential_net_profit": 23.98,
       "actual_resolution": "NO",
       "realized_gain": "-$10.00"
     }
