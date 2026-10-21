@@ -1,8 +1,33 @@
 {
   "starting_balance": 100.0,
-  "cash_balance": 179.12,
+  "cash_balance": 159.12,
   "cumulative_realized_pnl": 79.12,
-  "pending_trades": [],
+  "pending_trades": [
+    {
+      "date": "2026-10-21",
+      "city": "Las Vegas",
+      "station": "CLILAS",
+      "ticker": "KXRAIN-26OCT21-LV",
+      "position": "YES",
+      "entry_price": 0.4,
+      "contracts": 25.0,
+      "invested": 10.0,
+      "potential_realized": 24.57,
+      "potential_net_profit": 14.57
+    },
+    {
+      "date": "2026-10-21",
+      "city": "San Francisco",
+      "station": "CLISFO",
+      "ticker": "KXRAIN-26OCT21-SFO",
+      "position": "YES",
+      "entry_price": 0.77,
+      "contracts": 12.99,
+      "invested": 10.0,
+      "potential_realized": 12.82,
+      "potential_net_profit": 2.82
+    }
+  ],
   "settled_trades": [
     {
       "date": "2026-09-30",
