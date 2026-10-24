@@ -1,7 +1,7 @@
 {
   "starting_balance": 100.0,
-  "cash_balance": 99.12,
-  "cumulative_realized_pnl": 19.120000000000005,
+  "cash_balance": 93.60000000000001,
+  "cumulative_realized_pnl": 23.600000000000005,
   "pending_trades": [
     {
       "date": "2026-10-23",
@@ -16,16 +16,28 @@
       "potential_net_profit": 114.35
     },
     {
-      "date": "2026-10-23",
-      "city": "Miami",
-      "station": "CLIMIA",
-      "ticker": "KXRAIN-26OCT23-MIA",
+      "date": "2026-10-24",
+      "city": "Denver",
+      "station": "CLIDEN",
+      "ticker": "KXRAIN-26OCT24-DEN",
       "position": "YES",
       "entry_price": 0.68,
       "contracts": 14.71,
       "invested": 10.0,
       "potential_realized": 14.48,
       "potential_net_profit": 4.48
+    },
+    {
+      "date": "2026-10-24",
+      "city": "Minneapolis",
+      "station": "CLIMSP",
+      "ticker": "KXRAIN-26OCT24-MIN",
+      "position": "YES",
+      "entry_price": 0.65,
+      "contracts": 15.38,
+      "invested": 10.0,
+      "potential_realized": 15.13,
+      "potential_net_profit": 5.13
     }
   ],
   "settled_trades": [
@@ -728,6 +740,20 @@
       "potential_net_profit": 13.4,
       "actual_resolution": "NO",
       "realized_gain": "-$10.00"
+    },
+    {
+      "date": "2026-10-23",
+      "city": "Miami",
+      "station": "CLIMIA",
+      "ticker": "KXRAIN-26OCT23-MIA",
+      "position": "YES",
+      "entry_price": 0.68,
+      "contracts": 14.71,
+      "invested": 10.0,
+      "potential_realized": 14.48,
+      "potential_net_profit": 4.48,
+      "actual_resolution": "YES",
+      "realized_gain": "+$4.48"
     }
   ]
 }
