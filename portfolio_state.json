@@ -1,43 +1,19 @@
 {
   "starting_balance": 100.0,
-  "cash_balance": 93.60000000000001,
-  "cumulative_realized_pnl": 23.600000000000005,
+  "cash_balance": 83.60000000000001,
+  "cumulative_realized_pnl": -6.399999999999995,
   "pending_trades": [
     {
-      "date": "2026-10-23",
-      "city": "Los Angeles",
-      "station": "CLILAX",
-      "ticker": "KXRAIN-26OCT23-LAX",
-      "position": "YES",
-      "entry_price": 0.08,
-      "contracts": 125.0,
-      "invested": 10.0,
-      "potential_realized": 124.35,
-      "potential_net_profit": 114.35
-    },
-    {
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "city": "Denver",
       "station": "CLIDEN",
-      "ticker": "KXRAIN-26OCT24-DEN",
-      "position": "YES",
-      "entry_price": 0.68,
-      "contracts": 14.71,
+      "ticker": "KXRAIN-26OCT25-DEN",
+      "position": "NO",
+      "entry_price": 0.79,
+      "contracts": 12.66,
       "invested": 10.0,
-      "potential_realized": 14.48,
-      "potential_net_profit": 4.48
-    },
-    {
-      "date": "2026-10-24",
-      "city": "Minneapolis",
-      "station": "CLIMSP",
-      "ticker": "KXRAIN-26OCT24-MIN",
-      "position": "YES",
-      "entry_price": 0.65,
-      "contracts": 15.38,
-      "invested": 10.0,
-      "potential_realized": 15.13,
-      "potential_net_profit": 5.13
+      "potential_realized": 12.51,
+      "potential_net_profit": 2.51
     }
   ],
   "settled_trades": [
@@ -754,6 +730,48 @@
       "potential_net_profit": 4.48,
       "actual_resolution": "YES",
       "realized_gain": "+$4.48"
+    },
+    {
+      "date": "2026-10-23",
+      "city": "Los Angeles",
+      "station": "CLILAX",
+      "ticker": "KXRAIN-26OCT23-LAX",
+      "position": "YES",
+      "entry_price": 0.08,
+      "contracts": 125.0,
+      "invested": 10.0,
+      "potential_realized": 124.35,
+      "potential_net_profit": 114.35,
+      "actual_resolution": "NO",
+      "realized_gain": "-$10.00"
+    },
+    {
+      "date": "2026-10-24",
+      "city": "Denver",
+      "station": "CLIDEN",
+      "ticker": "KXRAIN-26OCT24-DEN",
+      "position": "YES",
+      "entry_price": 0.68,
+      "contracts": 14.71,
+      "invested": 10.0,
+      "potential_realized": 14.48,
+      "potential_net_profit": 4.48,
+      "actual_resolution": "NO",
+      "realized_gain": "-$10.00"
+    },
+    {
+      "date": "2026-10-24",
+      "city": "Minneapolis",
+      "station": "CLIMSP",
+      "ticker": "KXRAIN-26OCT24-MIN",
+      "position": "YES",
+      "entry_price": 0.65,
+      "contracts": 15.38,
+      "invested": 10.0,
+      "potential_realized": 15.13,
+      "potential_net_profit": 5.13,
+      "actual_resolution": "NO",
+      "realized_gain": "-$10.00"
     }
   ]
 }
