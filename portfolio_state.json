@@ -1,21 +1,8 @@
 {
   "starting_balance": 100.0,
-  "cash_balance": 83.60000000000001,
-  "cumulative_realized_pnl": -6.399999999999995,
-  "pending_trades": [
-    {
-      "date": "2026-10-25",
-      "city": "Denver",
-      "station": "CLIDEN",
-      "ticker": "KXRAIN-26OCT25-DEN",
-      "position": "NO",
-      "entry_price": 0.79,
-      "contracts": 12.66,
-      "invested": 10.0,
-      "potential_realized": 12.51,
-      "potential_net_profit": 2.51
-    }
-  ],
+  "cash_balance": 96.11000000000001,
+  "cumulative_realized_pnl": -3.8899999999999952,
+  "pending_trades": [],
   "settled_trades": [
     {
       "date": "2026-09-30",
@@ -772,6 +759,20 @@
       "potential_net_profit": 5.13,
       "actual_resolution": "NO",
       "realized_gain": "-$10.00"
+    },
+    {
+      "date": "2026-10-25",
+      "city": "Denver",
+      "station": "CLIDEN",
+      "ticker": "KXRAIN-26OCT25-DEN",
+      "position": "NO",
+      "entry_price": 0.79,
+      "contracts": 12.66,
+      "invested": 10.0,
+      "potential_realized": 12.51,
+      "potential_net_profit": 2.51,
+      "actual_resolution": "NO",
+      "realized_gain": "+$2.51"
     }
   ]
 }
