@@ -1,31 +1,43 @@
 {
   "starting_balance": 100.0,
-  "cash_balance": 51.32000000000002,
-  "cumulative_realized_pnl": -28.679999999999993,
+  "cash_balance": 21.32000000000002,
+  "cumulative_realized_pnl": -48.67999999999999,
   "pending_trades": [
     {
-      "date": "2026-10-30",
-      "city": "Los Angeles",
-      "station": "CLILAX",
-      "ticker": "KXRAIN-26OCT30-LAX",
+      "date": "2026-10-31",
+      "city": "Dallas",
+      "station": "CLIDFW",
+      "ticker": "KXRAIN-26OCT31-DAL",
       "position": "YES",
-      "entry_price": 0.31,
-      "contracts": 32.26,
+      "entry_price": 0.09,
+      "contracts": 111.11,
       "invested": 10.0,
-      "potential_realized": 31.77,
-      "potential_net_profit": 21.77
+      "potential_realized": 110.47,
+      "potential_net_profit": 100.47
     },
     {
-      "date": "2026-10-30",
-      "city": "Miami",
-      "station": "CLIMIA",
-      "ticker": "KXRAIN-26OCT30-MIA",
+      "date": "2026-10-31",
+      "city": "Houston",
+      "station": "CLIHOU",
+      "ticker": "KXRAIN-26OCT31-HOU",
       "position": "YES",
-      "entry_price": 0.43,
-      "contracts": 23.26,
+      "entry_price": 0.5,
+      "contracts": 20.0,
       "invested": 10.0,
-      "potential_realized": 22.86,
-      "potential_net_profit": 12.86
+      "potential_realized": 19.65,
+      "potential_net_profit": 9.65
+    },
+    {
+      "date": "2026-10-31",
+      "city": "Oklahoma City",
+      "station": "CLIOKC",
+      "ticker": "KXRAIN-26OCT31-OKC",
+      "position": "YES",
+      "entry_price": 0.19,
+      "contracts": 52.63,
+      "invested": 10.0,
+      "potential_realized": 52.06,
+      "potential_net_profit": 42.06
     }
   ],
   "settled_trades": [
@@ -866,6 +878,34 @@
       "invested": 10.0,
       "potential_realized": 16.38,
       "potential_net_profit": 6.38,
+      "actual_resolution": "NO",
+      "realized_gain": "-$10.00"
+    },
+    {
+      "date": "2026-10-30",
+      "city": "Los Angeles",
+      "station": "CLILAX",
+      "ticker": "KXRAIN-26OCT30-LAX",
+      "position": "YES",
+      "entry_price": 0.31,
+      "contracts": 32.26,
+      "invested": 10.0,
+      "potential_realized": 31.77,
+      "potential_net_profit": 21.77,
+      "actual_resolution": "NO",
+      "realized_gain": "-$10.00"
+    },
+    {
+      "date": "2026-10-30",
+      "city": "Miami",
+      "station": "CLIMIA",
+      "ticker": "KXRAIN-26OCT30-MIA",
+      "position": "YES",
+      "entry_price": 0.43,
+      "contracts": 23.26,
+      "invested": 10.0,
+      "potential_realized": 22.86,
+      "potential_net_profit": 12.86,
       "actual_resolution": "NO",
       "realized_gain": "-$10.00"
     }
