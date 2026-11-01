@@ -1,45 +1,8 @@
 {
   "starting_balance": 100.0,
-  "cash_balance": 21.32000000000002,
-  "cumulative_realized_pnl": -48.67999999999999,
-  "pending_trades": [
-    {
-      "date": "2026-10-31",
-      "city": "Dallas",
-      "station": "CLIDFW",
-      "ticker": "KXRAIN-26OCT31-DAL",
-      "position": "YES",
-      "entry_price": 0.09,
-      "contracts": 111.11,
-      "invested": 10.0,
-      "potential_realized": 110.47,
-      "potential_net_profit": 100.47
-    },
-    {
-      "date": "2026-10-31",
-      "city": "Houston",
-      "station": "CLIHOU",
-      "ticker": "KXRAIN-26OCT31-HOU",
-      "position": "YES",
-      "entry_price": 0.5,
-      "contracts": 20.0,
-      "invested": 10.0,
-      "potential_realized": 19.65,
-      "potential_net_profit": 9.65
-    },
-    {
-      "date": "2026-10-31",
-      "city": "Oklahoma City",
-      "station": "CLIOKC",
-      "ticker": "KXRAIN-26OCT31-OKC",
-      "position": "YES",
-      "entry_price": 0.19,
-      "contracts": 52.63,
-      "invested": 10.0,
-      "potential_realized": 52.06,
-      "potential_net_profit": 42.06
-    }
-  ],
+  "cash_balance": 93.03000000000003,
+  "cumulative_realized_pnl": -6.969999999999992,
+  "pending_trades": [],
   "settled_trades": [
     {
       "date": "2026-09-30",
@@ -908,6 +871,48 @@
       "potential_net_profit": 12.86,
       "actual_resolution": "NO",
       "realized_gain": "-$10.00"
+    },
+    {
+      "date": "2026-10-31",
+      "city": "Dallas",
+      "station": "CLIDFW",
+      "ticker": "KXRAIN-26OCT31-DAL",
+      "position": "YES",
+      "entry_price": 0.09,
+      "contracts": 111.11,
+      "invested": 10.0,
+      "potential_realized": 110.47,
+      "potential_net_profit": 100.47,
+      "actual_resolution": "NO",
+      "realized_gain": "-$10.00"
+    },
+    {
+      "date": "2026-10-31",
+      "city": "Houston",
+      "station": "CLIHOU",
+      "ticker": "KXRAIN-26OCT31-HOU",
+      "position": "YES",
+      "entry_price": 0.5,
+      "contracts": 20.0,
+      "invested": 10.0,
+      "potential_realized": 19.65,
+      "potential_net_profit": 9.65,
+      "actual_resolution": "YES",
+      "realized_gain": "+$9.65"
+    },
+    {
+      "date": "2026-10-31",
+      "city": "Oklahoma City",
+      "station": "CLIOKC",
+      "ticker": "KXRAIN-26OCT31-OKC",
+      "position": "YES",
+      "entry_price": 0.19,
+      "contracts": 52.63,
+      "invested": 10.0,
+      "potential_realized": 52.06,
+      "potential_net_profit": 42.06,
+      "actual_resolution": "YES",
+      "realized_gain": "+$42.06"
     }
   ]
 }
