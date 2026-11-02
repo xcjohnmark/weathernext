@@ -1,8 +1,45 @@
 {
   "starting_balance": 100.0,
-  "cash_balance": 93.03000000000003,
+  "cash_balance": 63.03000000000003,
   "cumulative_realized_pnl": -6.969999999999992,
-  "pending_trades": [],
+  "pending_trades": [
+    {
+      "date": "2026-11-02",
+      "city": "Chicago",
+      "station": "CLIORD",
+      "ticker": "KXRAIN-26NOV02-CHI",
+      "position": "YES",
+      "entry_price": 0.21,
+      "contracts": 47.62,
+      "invested": 10.0,
+      "potential_realized": 47.06,
+      "potential_net_profit": 37.06
+    },
+    {
+      "date": "2026-11-02",
+      "city": "New Orleans",
+      "station": "CLIMSY",
+      "ticker": "KXRAIN-26NOV02-NOLA",
+      "position": "YES",
+      "entry_price": 0.08,
+      "contracts": 125.0,
+      "invested": 10.0,
+      "potential_realized": 124.35,
+      "potential_net_profit": 114.35
+    },
+    {
+      "date": "2026-11-02",
+      "city": "Dallas",
+      "station": "CLIDFW",
+      "ticker": "KXRAIN-26NOV02-DAL",
+      "position": "YES",
+      "entry_price": 0.68,
+      "contracts": 14.71,
+      "invested": 10.0,
+      "potential_realized": 14.48,
+      "potential_net_profit": 4.48
+    }
+  ],
   "settled_trades": [
     {
       "date": "2026-09-30",
