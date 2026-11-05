@@ -1,19 +1,19 @@
 {
   "starting_balance": 100.0,
-  "cash_balance": 13.03000000000003,
-  "cumulative_realized_pnl": -76.97,
+  "cash_balance": 3.0300000000000296,
+  "cumulative_realized_pnl": -86.97,
   "pending_trades": [
     {
-      "date": "2026-11-04",
-      "city": "New Orleans",
-      "station": "CLIMSY",
-      "ticker": "KXRAIN-26NOV04-NOLA",
+      "date": "2026-11-05",
+      "city": "Atlanta",
+      "station": "CLIATL",
+      "ticker": "KXRAIN-26NOV05-ATL",
       "position": "YES",
-      "entry_price": 0.06,
-      "contracts": 166.67,
+      "entry_price": 0.09,
+      "contracts": 111.11,
       "invested": 10.0,
-      "potential_realized": 166.01,
-      "potential_net_profit": 156.01
+      "potential_realized": 110.47,
+      "potential_net_profit": 100.47
     }
   ],
   "settled_trades": [
@@ -1016,6 +1016,20 @@
       "city": "Oklahoma City",
       "station": "CLIOKC",
       "ticker": "KXRAIN-26NOV03-OKC",
+      "position": "YES",
+      "entry_price": 0.06,
+      "contracts": 166.67,
+      "invested": 10.0,
+      "potential_realized": 166.01,
+      "potential_net_profit": 156.01,
+      "actual_resolution": "NO",
+      "realized_gain": "-$10.00"
+    },
+    {
+      "date": "2026-11-04",
+      "city": "New Orleans",
+      "station": "CLIMSY",
+      "ticker": "KXRAIN-26NOV04-NOLA",
       "position": "YES",
       "entry_price": 0.06,
       "contracts": 166.67,
