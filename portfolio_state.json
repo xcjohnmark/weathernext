@@ -1,21 +1,8 @@
 {
   "starting_balance": 100.0,
   "cash_balance": 3.0300000000000296,
-  "cumulative_realized_pnl": -86.97,
-  "pending_trades": [
-    {
-      "date": "2026-11-05",
-      "city": "Atlanta",
-      "station": "CLIATL",
-      "ticker": "KXRAIN-26NOV05-ATL",
-      "position": "YES",
-      "entry_price": 0.09,
-      "contracts": 111.11,
-      "invested": 10.0,
-      "potential_realized": 110.47,
-      "potential_net_profit": 100.47
-    }
-  ],
+  "cumulative_realized_pnl": -96.97,
+  "pending_trades": [],
   "settled_trades": [
     {
       "date": "2026-09-30",
@@ -1036,6 +1023,20 @@
       "invested": 10.0,
       "potential_realized": 166.01,
       "potential_net_profit": 156.01,
+      "actual_resolution": "NO",
+      "realized_gain": "-$10.00"
+    },
+    {
+      "date": "2026-11-05",
+      "city": "Atlanta",
+      "station": "CLIATL",
+      "ticker": "KXRAIN-26NOV05-ATL",
+      "position": "YES",
+      "entry_price": 0.09,
+      "contracts": 111.11,
+      "invested": 10.0,
+      "potential_realized": 110.47,
+      "potential_net_profit": 100.47,
       "actual_resolution": "NO",
       "realized_gain": "-$10.00"
     }

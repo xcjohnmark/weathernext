@@ -2,9 +2,9 @@
 
 > 💰 **Starting Paper Capital:** **$100.00**  
 > 💵 **Available Cash Balance:** **$3.03**  
-> 📈 **Total Account Equity:** **$13.03** ($3.03 Cash + $10.00 in Active Trades)  
-> 📊 **Cumulative Realized PnL:** **-86.97**  
-> 🕒 **Last Updated:** 2026-11-06 17:26:50  
+> 📈 **Total Account Equity:** **$3.03** ($3.03 Cash + $0.00 in Active Trades)  
+> 📊 **Cumulative Realized PnL:** **-96.97**  
+> 🕒 **Last Updated:** 2026-11-07 16:22:45  
 > **Strategy Rules:** Trade YES if Model > 75%, Trade NO if Model < 25%, Entry Ask Price < 80¢, Fixed $10/trade  
 
 ---
@@ -1640,5 +1640,48 @@
 * **Potential Realized Payout:** $0.00 (Potential Net Profit: +$0.00)
 * **Cumulative Realized PnL to Date:** **$-86.97**
 * **Total Account Equity:** **$13.03** ($3.03 Cash + $10.00 Open Positions)
+
+---
+
+## Paper Trading Session: 2026-11-07
+*Logged at: 2026-11-07 16:22:45 (Live Production Kalshi Prices & WeatherNext 63-Member Ensemble)*
+
+- **Trades Placed Today:** 0
+- **Capital Deployed Today:** $0.00
+- **Potential Return from Today's Trades:** $0.00
+
+| City | Station | Kalshi Chance | YES / NO Ask | WeatherNext Prob | Position | Entry Price | Contracts | Invested | Realized Return If Won | Actual Resolution | Realized Gain | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **Chicago** | `CLIORD` | 1% | 1¢ / 100¢ | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | NO price >= 80¢ (Low ROI/Fee Risk) |
+| **Denver** | `CLIDEN` | 1% | 1¢ / 100¢ | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | NO price >= 80¢ (Low ROI/Fee Risk) |
+| **Los Angeles** | `CLILAX` | 1% | 1¢ / 100¢ | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | NO price >= 80¢ (Low ROI/Fee Risk) |
+| **Las Vegas** | `CLILAS` | 1% | 1¢ / 100¢ | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | NO price >= 80¢ (Low ROI/Fee Risk) |
+| **Miami** | `CLIMIA` | 36% | 37¢ / 64¢ | 73.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | Prob between 25-75% |
+| **New Orleans** | `CLIMSY` | 1% | 1¢ / 100¢ | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | NO price >= 80¢ (Low ROI/Fee Risk) |
+| **New York City** | `CLINYC` | 9% | 10¢ / 93¢ | 65.1% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | Prob between 25-75% |
+| **Philadelphia** | `CLIPHL` | 1% | 1¢ / 100¢ | 9.5% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | NO price >= 80¢ (Low ROI/Fee Risk) |
+| **San Francisco** | `CLISFO` | 1% | 1¢ / 100¢ | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | NO price >= 80¢ (Low ROI/Fee Risk) |
+| **Trenton** | `CLITTN` | 1% | 2¢ / 99¢ | 19.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | NO price >= 80¢ (Low ROI/Fee Risk) |
+| **Atlanta** | `CLIATL` | 1% | 1¢ / 100¢ | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | NO price >= 80¢ (Low ROI/Fee Risk) |
+| **Austin** | `CLIAUS` | 65% | 66¢ / 35¢ | 98.4% | **SKIPPED (INSUFFICIENT FUNDS)** | -- | -- | $0.00 | -- | Pending | Pending | Cash $3.03 < $10.00 |
+| **Boston** | `CLIBOS` | 99% | 100¢ / 1¢ | 100.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | YES price >= 80¢ (Low ROI/Fee Risk) |
+| **Dallas** | `CLIDFW` | 9% | 11¢ / 91¢ | 50.8% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | Prob between 25-75% |
+| **Washington DC** | `CLIDCA` | 1% | 1¢ / 100¢ | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | NO price >= 80¢ (Low ROI/Fee Risk) |
+| **Newark** | `CLIEWR` | 5% | 7¢ / 95¢ | 36.5% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | Prob between 25-75% |
+| **Houston** | `CLIHOU` | 5% | 4¢ / 98¢ | 12.7% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | NO price >= 80¢ (Low ROI/Fee Risk) |
+| **Minneapolis** | `CLIMSP` | 1% | 1¢ / 100¢ | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | NO price >= 80¢ (Low ROI/Fee Risk) |
+| **Oklahoma City** | `CLIOKC` | 1% | 1¢ / 100¢ | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | NO price >= 80¢ (Low ROI/Fee Risk) |
+| **Phoenix** | `CLIPHX` | -- | -- / -- | 0.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | No NO Ask liquidity |
+| **San Antonio** | `CLISAT` | 71% | 70¢ / 32¢ | 100.0% | **SKIPPED (INSUFFICIENT FUNDS)** | -- | -- | $0.00 | -- | Pending | Pending | Cash $3.03 < $10.00 |
+| **Seattle** | `CLISEA` | 96% | 96¢ / 5¢ | 100.0% | **NO TRADE** | -- | -- | $0.00 | -- | Pending | Pending | YES price >= 80¢ (Low ROI/Fee Risk) |
+
+### 📊 Portfolio Status (2026-11-07)
+* **Initial Bankroll:** $100.00
+* **Capital Invested Today:** $0.00 (0 positions @ $10.00)
+* **Available Cash Remaining:** **$3.03**
+* **Total Active Open Positions:** 0
+* **Potential Realized Payout:** $0.00 (Potential Net Profit: +$0.00)
+* **Cumulative Realized PnL to Date:** **$-96.97**
+* **Total Account Equity:** **$3.03** ($3.03 Cash + $0.00 Open Positions)
 
 ---
